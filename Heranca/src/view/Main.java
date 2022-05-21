@@ -2,6 +2,7 @@ package view;
 
 import model.Usuario;
 import model.Aluno;
+import model.Professor;
 
 public class Main {
 
@@ -16,6 +17,14 @@ public class Main {
 		aluno1.setCurso("Sistemas");
 		
 		System.out.println(aluno1.dadosFormatados());
+		
+		Professor professor1 = new Professor("000.1","000");
+		professor1.setNome("Emerson");
+		professor1.setArea("T.I");
+		
+		System.out.println(professor1.dadosFormatados());
+
+		
 	}
 
 }
