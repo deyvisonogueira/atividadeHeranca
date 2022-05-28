@@ -1,6 +1,5 @@
 package view;
 
-import model.Veiculo;
 import model.Carro;
 import model.Moto;
 
