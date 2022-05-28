@@ -4,17 +4,17 @@ public class Veiculo {
 	private String marca;
 	private String modelo;
 
-	public Veiculo(String vMarca, String vModelo) {
-		this.marca = vMarca;
-		this.modelo = vModelo;
+	public Veiculo(String pMarca, String pModelo) {
+		this.marca = pMarca;
+		this.modelo = pModelo;
 	}
 
 	public String getModelo() {
 		return this.modelo;
 	}
 
-	public void setMarca(String cMarca) {
-		this.marca = cMarca;
+	public void setMarca(String pMarca) {
+		this.marca = pMarca;
 	}
 
 	public String getMarca() {
